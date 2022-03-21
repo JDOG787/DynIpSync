@@ -1,7 +1,7 @@
 # What is this?
 Most home networks have a dynamic public ip address, which means that your isp gives you a new public ip every so often. This is great for security, but when you run services on server on that network it can be quite annoying as you are constantly updating the ips for proxies, domains, etc. This script updates the ip for you automatically.
 
-# Why
+# Why?
 Like I mentioned above, it's not ideal to have to routinely update ips for config files and domains especially when you have users that use your services. I got really frustrated with this, so much so that I stoped udpating it, or just frogot about it. So I decided why not automate it.
 
 ## What does it do?
