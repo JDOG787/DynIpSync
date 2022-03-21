@@ -7,7 +7,7 @@ const bree = new Bree({
     jobs: [
         {
             name: "update-ip",
-            interval: "20sec"
+            interval: "5m"
         }
     ]
 })
