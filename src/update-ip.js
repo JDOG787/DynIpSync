@@ -1,9 +1,9 @@
 import fs from 'fs';
 import  {NodeSSH} from 'node-ssh';
-import nginxConfig from '../src/nginx.js';
+import nginxConfig from './nginx.js';
 import axios from 'axios';
 
-(async () => {
+export default async () => {
 
 
     const currentIp = await getIp();
@@ -41,7 +41,7 @@ import axios from 'axios';
 
         fs.writeFileSync("data/USED_IP", currentIp)
     }
-})()
+}
 
 async function getIp() {
     const res = await axios.get('https://api.ipify.org');
